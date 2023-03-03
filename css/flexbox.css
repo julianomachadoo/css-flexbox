@@ -53,6 +53,20 @@
     display: none;
 }
 
+ /* VIDEO */
+
+.videos__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ .videos__item {
+    height: 303px;
+    width: 280px;
+    flex-grow: 1;
+ }
+
 /* RODAPÉ */
 
 .rodape__container {
@@ -120,7 +134,7 @@
         flex-direction: column-reverse;
     }
 
-    .jogos {
+    /* .jogos {
         order: 3;
     }
 
@@ -134,5 +148,5 @@
 
     .maispagina {
         order: 4;
-    }
+    } */
 }
